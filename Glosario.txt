@@ -1,0 +1,19 @@
+Clase: Una estructura que define las propiedades y métodos de un objeto en TypeScript. Proporciona una plantilla para la creación de instancias de objetos.
+
+Objeto: Una instancia de una clase. Un objeto tiene propiedades y métodos que se definen en su clase correspondiente.
+
+Propiedad: Una característica de un objeto que almacena un valor. Las propiedades de una clase se definen dentro de la declaración de la clase y se pueden acceder a través de las instancias de la clase.
+
+Método: Una función asociada a una clase que define el comportamiento de los objetos de esa clase. Los métodos se definen dentro de la declaración de la clase y se pueden llamar en las instancias de la clase.
+
+Constructor: Un método especial que se llama automáticamente al crear una nueva instancia de una clase. Se utiliza para inicializar las propiedades de la clase y configurar el estado inicial del objeto.
+
+Herencia: Un mecanismo en el que una clase (llamada clase hija o subclase) hereda propiedades y métodos de otra clase (llamada clase padre o superclase). Permite la reutilización de código y la extensión de funcionalidades.
+
+Palabra clave "extends": Utilizada para establecer la herencia entre clases en TypeScript. Una clase hija puede extender una clase padre para heredar sus propiedades y métodos.
+
+Palabra clave "super": Utilizada dentro de una clase hija para llamar al constructor de la clase padre. Permite inicializar las propiedades heredadas de la clase padre.
+
+Modificador de acceso: Especifica la visibilidad y accesibilidad de propiedades y métodos dentro de una clase. Los modificadores de acceso en TypeScript son: public, private y protected.
+
+Método estático: Un método que pertenece a la clase en lugar de a las instancias individuales de la clase. Pueden ser llamados directamente en la clase sin la necesidad de crear una instancia.
