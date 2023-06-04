@@ -10,4 +10,13 @@ export class Canal {
       this.streamer = streamer;
       this.descripcion = descripcion;
     }
+  
+    mostrarDetalle(): void {
+      console.log("Detalles del canal:");
+      console.log("Nombre:", this.nombre);
+      console.log("Banner:", this.banner);
+      console.log("Streamer:", this.streamer);
+      console.log("Descripción:", this.descripcion);
+    }
   }
+  
